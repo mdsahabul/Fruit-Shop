@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <fruits>
   <fruit>
-    <name>Orange</name>
-    <description>Citrus & juicy</description>
-    <image>https://images.pexels.com/photos/4198023/pexels-photo-4198023.jpeg</image>
-  </fruit>
-  <fruit>
-    <name>Blueberries</name>
-    <description>Rich in antioxidants</description>
-    <image>https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg</image>
-  </fruit>
-  <fruit>
-    <name>Grapes</name>
-    <description>Sweet & seedless</description>
-    <image>https://images.pexels.com/photos/1000084/pexels-photo-1000084.jpeg</image>
-  </fruit>
-  <fruit>
     <name>Apple</name>
-    <description>Crunchy & fresh</description>
-    <image>https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg</image>
+    <image>apple.jpg</image>
+    <price>3.00</price>
+  </fruit>
+  <fruit>
+    <name>Orange</name>
+    <image>orange.jpg</image>
+    <price>2.50</price>
+  </fruit>
+  <fruit>
+    <name>Banana</name>
+    <image>banana.jpg</image>
+    <price>1.20</price>
+  </fruit>
+  <fruit>
+    <name>Strawberry</name>
+    <image>strawberry.jpg</image>
+    <price>4.00</price>
   </fruit>
 </fruits>
