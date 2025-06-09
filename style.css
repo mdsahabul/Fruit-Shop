@@ -1,78 +1,56 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #fff;
-    color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
 }
 
-.header {
-    background-color: #f8f9fa;
-    padding: 30px 0;
-    text-align: center;
+.header h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #333;
 }
 
-.section-title {
-    text-align: center;
-    padding: 40px 0;
+.navbar .nav-link {
+  transition: color 0.3s;
 }
 
-.section-title h2 {
-    font-weight: bold;
-    margin-bottom: 20px;
+.navbar .nav-link:hover {
+  color: #ffc107;
 }
 
-.fruit-img {
-    width: 100%;
-    border-radius: 10px;
-    transition: transform 0.3s ease;
+.hero img {
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 20px;
 }
 
-.fruit-img:hover {
-    transform: scale(1.05);
+.btn-primary {
+  transition: transform 0.3s;
 }
 
-.testimonial {
-    background-color: #f2f2f2;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.testimonial img {
-    margin-bottom: 10px;
-}
-
-.contact-form {
-    background-color: #f9f9f9;
-    padding: 40px;
-    border-radius: 10px;
-    margin-top: 40px;
-}
-
-footer {
-    background-color: #343a40;
-    color: white;
-    padding: 40px 0;
-}
-
-footer p,
-footer a {
-    color: white;
+.btn-primary:hover {
+  transform: scale(1.1);
 }
 
 .card {
-    transition: transform 0.3s ease;
-    border-radius: 10px;
-    overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .card:hover {
-    transform: translateY(-5px);
+  transform: translateY(-10px);
 }
 
-.btn {
-    border-radius: 30px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+blockquote {
+  font-style: italic;
+  color: #555;
 }
 
-.btn:hover {
-    transform: scale(1.05);
+footer {
+  background-color: #222;
+}
+
+footer p, footer small {
+  margin: 0;
 }

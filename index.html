@@ -2,137 +2,150 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ninom Fruit Shop</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ninom Fruit Shop</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 </head>
 
 <body>
-    <div class="header">
-        <h1>NINOM</h1>
+  <header class="header text-center py-4">
+    <h1>NINOM Fruit Shop</h1>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Ninom</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#fruits">Fruits</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </div>
+  </nav>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">Fruit Shop</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Our Fruit</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Testimonial</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
-                </ul>
-            </div>
+  <section class="hero text-center py-5">
+    <div class="container">
+      <h2>Fresh & Organic Fruits</h2>
+      <p>Healthy choices delivered to your door.</p>
+      <img src="https://images.pexels.com/photos/5945909/pexels-photo-5945909.jpeg" alt="Hero Fruit" class="img-fluid rounded">
+      <br /><br />
+      <a href="#fruits" class="btn btn-primary">Shop Now</a>
+    </div>
+  </section>
+
+  <section id="about" class="about py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="https://images.pexels.com/photos/5945906/pexels-photo-5945906.jpeg" class="img-fluid rounded" alt="About Image">
         </div>
-    </nav>
-
-    <section class="section-title">
-        <h2>FRUIT SHOP</h2>
-        <p>There are many variations of passages of Lorem Ipsum available</p>
-        <img src="https://images.pexels.com/photos/5945909/pexels-photo-5945909.jpeg" class="img-fluid w-50 w-md-25" alt="Apple Basket">
-        <br><br>
-        <button class="btn btn-dark">Buy Now</button>
-    </section>
-
-    <section class="container my-5">
-        <div class="row align-items-center">
-            <div class="col-md-6 mb-3 mb-md-0">
-                <img src="https://images.pexels.com/photos/5945906/pexels-photo-5945906.jpeg" class="img-fluid" alt="Mixed Fruit">
-            </div>
-            <div class="col-md-6">
-                <h3>About Our Fruit Shop</h3>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                <button class="btn btn-dark">Read More</button>
-            </div>
+        <div class="col-md-6">
+          <h3>About Us</h3>
+          <p>We offer a wide range of fresh and organic fruits picked from the best farms and delivered to your doorstep with care.</p>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <section class="container text-center my-5">
-        <h2>Fresh Fruit</h2>
-        <div class="row">
-            <div class="col-6 col-md-4 mb-4"><img src="https://images.pexels.com/photos/4198023/pexels-photo-4198023.jpeg" class="fruit-img"><p>ORANGE</p></div>
-            <div class="col-6 col-md-4 mb-4"><img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg" class="fruit-img"><p>BLUEBERRIES</p></div>
-            <div class="col-6 col-md-4 mb-4"><img src="https://images.pexels.com/photos/1000084/pexels-photo-1000084.jpeg" class="fruit-img"><p>GRAPES</p></div>
-            <div class="col-6 col-md-4 mb-4"><img src="https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg" class="fruit-img"><p>APPLE</p></div>
-            <div class="col-6 col-md-4 mb-4"><img src="https://images.pexels.com/photos/235725/pexels-photo-235725.jpeg" class="fruit-img"><p>MANGO</p></div>
-            <div class="col-6 col-md-4 mb-4"><img src="https://images.pexels.com/photos/161559/pexels-photo-161559.jpeg" class="fruit-img"><p>WATERMELON</p></div>
+  <section id="fruits" class="products py-5">
+    <div class="container text-center">
+      <h2>Fresh Fruits</h2>
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="card">
+            <img src="https://images.pexels.com/photos/4198023/pexels-photo-4198023.jpeg" class="card-img-top" alt="Orange">
+            <div class="card-body">
+              <h5 class="card-title">Orange</h5>
+              <p class="card-text">Citrus & juicy</p>
+            </div>
+          </div>
         </div>
-    </section>
-
-    <section class="container my-5">
-        <h2 class="section-title">Shop</h2>
-        <div class="row">
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="https://images.pexels.com/photos/209339/pexels-photo-209339.jpeg" class="card-img-top" alt="Apple Juice">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Apple Juice</h5>
-                        <p class="card-text">Fresh and organic apple juice packed with nutrients.</p>
-                        <a href="#" class="btn btn-warning">Buy Now</a>
-                    </div>
-                </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="card">
+            <img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg" class="card-img-top" alt="Blueberries">
+            <div class="card-body">
+              <h5 class="card-title">Blueberries</h5>
+              <p class="card-text">Rich in antioxidants</p>
             </div>
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="https://images.pexels.com/photos/5945750/pexels-photo-5945750.jpeg" class="card-img-top" alt="Mango Pack">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Mango Pack</h5>
-                        <p class="card-text">A bundle of ripe, juicy mangoes for summer delight.</p>
-                        <a href="#" class="btn btn-warning">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="https://images.pexels.com/photos/4198023/pexels-photo-4198023.jpeg" class="card-img-top" alt="Orange Basket">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Orange Basket</h5>
-                        <p class="card-text">Crisp and vitamin-rich oranges for your daily dose.</p>
-                        <a href="#" class="btn btn-warning">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="https://images.pexels.com/photos/41956/blueberries-fruits-berries-blue-41956.jpeg" class="card-img-top" alt="Blueberries">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Blueberries</h5>
-                        <p class="card-text">Packed with antioxidants and sweet flavor.</p>
-                        <a href="#" class="btn btn-warning">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg" class="card-img-top" alt="Apple Pack">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Apple Pack</h5>
-                        <p class="card-text">Crunchy apples perfect for snacks and health.</p>
-                        <a href="#" class="btn btn-warning">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="https://images.pexels.com/photos/207216/pexels-photo-207216.jpeg" class="card-img-top" alt="Strawberry Box">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Strawberry Box</h5>
-                        <p class="card-text">Fresh, handpicked strawberries ready to eat.</p>
-                        <a href="#" class="btn btn-warning">Buy Now</a>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-    </section>
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="card">
+            <img src="https://images.pexels.com/photos/1000084/pexels-photo-1000084.jpeg" class="card-img-top" alt="Grapes">
+            <div class="card-body">
+              <h5 class="card-title">Grapes</h5>
+              <p class="card-text">Sweet & seedless</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="card">
+            <img src="https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg" class="card-img-top" alt="Apple">
+            <div class="card-body">
+              <h5 class="card-title">Apple</h5>
+              <p class="card-text">Crunchy & fresh</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Remaining sections (testimonial, contact, footer, scripts) remain unchanged -->
+  <section id="testimonials" class="testimonials bg-light py-5">
+    <div class="container text-center">
+      <h3>What Our Customers Say</h3>
+      <div class="row mt-4">
+        <div class="col-md-6">
+          <blockquote>
+            <p><i class="fas fa-quote-left"></i> Fast delivery and fresh fruits! <i class="fas fa-quote-right"></i></p>
+            <footer class="blockquote-footer">Alice Green</footer>
+          </blockquote>
+        </div>
+        <div class="col-md-6">
+          <blockquote>
+            <p><i class="fas fa-quote-left"></i> I order every week and never disappointed. <i class="fas fa-quote-right"></i></p>
+            <footer class="blockquote-footer">John Doe</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact py-5">
+    <div class="container text-center">
+      <h4>Get In Touch</h4>
+      <form class="mt-4">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <input type="text" class="form-control" placeholder="Your Name">
+          </div>
+          <div class="form-group col-md-6">
+            <input type="email" class="form-control" placeholder="Your Email">
+          </div>
+        </div>
+        <textarea class="form-control mb-3" placeholder="Message"></textarea>
+        <button class="btn btn-success">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer bg-dark text-white text-center py-3">
+    <p class="mb-1">&copy; 2025 Ninom Fruit Shop</p>
+    <small>Designed with ❤ using Bootstrap</small>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
